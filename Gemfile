@@ -24,3 +24,7 @@ end
 group :production do
   gem 'pg', '0.12.2'
 end
+
+# Utan denna går det inte att köra programmet..
+# See https://github.com/sstephenson/execjs#readme for more supported runtimes
+   gem 'therubyracer', :platform => :ruby
